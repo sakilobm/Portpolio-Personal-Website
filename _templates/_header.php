@@ -32,7 +32,7 @@
     </nav>
     <div class="hero flex item-center justify-between">
       <div class="left flex-1 flex justify-center">
-        <img src="./images/SakilPng.png" alt="" />
+        <img id="sakil" src="./images/SakilPng.png" alt="" />
       </div>
       <div class="right flex-1">
         <h6>Master Sakil</h6>

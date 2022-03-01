@@ -1,4 +1,4 @@
-
+<section id="about" class="about">
   <div class="container flex item-center about-inner-wrap">
     <div class="flex-1">
       <img class="about-me-img" src="./images/IMG_20201109_185455_354.jpg" alt="" />
@@ -21,3 +21,4 @@
       </div>
     </div>
   </div>
+</section>

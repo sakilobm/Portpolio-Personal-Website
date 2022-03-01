@@ -1,4 +1,4 @@
-
+<section id="work" class="work">
     <div class="container">
         <h1 class="section-heading"><span>Our</span> Works</h1>
         <p>
@@ -49,3 +49,4 @@
             </div>
         </div>
     </div>
+</section>

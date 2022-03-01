@@ -21,30 +21,30 @@
 <body>
   <div class="site-main-wrapper">
     <?php load_templates('_header') ?>
-    <section id="about" class="about">
-      <?php load_templates('_about') ?>
-    </section>
-    <section id="services" class="services">
-      <?php load_templates('_services') ?>
-    </section>
-    <section id="freelancer" class="freelancer">
-      <?php load_templates('_freelancer') ?>
-    </section>
-    <section id="reviews" class="reviews">
-      <?php load_templates('_reviews') ?>
-    </section>
-    <section id="work" class="work">
-      <?php load_templates('_work') ?>
-    </section>
-    <section id="blog" class="blog">
-      <?php load_templates('_blog') ?>
-    </section>
-    <section id="contact" class="contact">
-      <?php load_templates('_contact') ?>
-    </section>
-    <footer>
-      <?php load_templates('_footer') ?>
-    </footer>
+
+    <?php load_templates('_about') ?>
+
+
+    <?php load_templates('_services') ?>
+
+
+    <?php load_templates('_freelancer') ?>
+
+
+    <?php load_templates('_reviews') ?>
+
+
+    <?php load_templates('_work') ?>
+
+
+    <?php load_templates('_blog') ?>
+
+
+    <?php load_templates('_contact') ?>
+
+
+    <?php load_templates('_footer') ?>
+
   </div>
 
   <!-- javascript -->
@@ -52,6 +52,20 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./js/app.js"></script>
+  <script>
+    let mainImage = document.getElementById('sakil');
+    // let text = document.getElementById('');
+    // let text = document.getElementById('');
+
+    window.addEventListener('scroll', function() {
+      let value = window.screenY;
+
+      mainImage.style.top = 50 + value * -0.5 + '%';
+      // text.style.top = 50 + value * -0.5 + '%';
+      // text.style.top = 50 + value * -0.5 + '%';
+      // text.style.top = 50 + value * -0.5 + '%';
+    })
+  </script>
 </body>
 
 </html>
